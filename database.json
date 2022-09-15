@@ -1,0 +1,249 @@
+{
+  "users": [
+    {
+      "name": "Nicholas Casale",
+      "email": "Nicholas.e.casale@gmail.com",
+      "isStaff": true,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Jojo",
+      "email": "jsparshatt1@house.gov",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "name": "Ethe",
+      "email": "elancley2@typepad.com",
+      "isStaff": false
+    },
+    {
+      "id": 4,
+      "name": "Tybi",
+      "email": "ttine3@accuweather.com",
+      "isStaff": true
+    },
+    {
+      "id": 5,
+      "name": "Maggee",
+      "email": "mwhittier4@alexa.com",
+      "isStaff": false
+    },
+    {
+      "id": 6,
+      "name": "Jarid",
+      "email": "jelliston5@shop-pro.jp",
+      "isStaff": true
+    },
+    {
+      "id": 7,
+      "name": "Olav",
+      "email": "oduester6@squidoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 8,
+      "name": "Glenda",
+      "email": "ggunningham7@seesaa.net",
+      "isStaff": true
+    },
+    {
+      "id": 9,
+      "name": "Veronica",
+      "email": "vmatthis8@printfriendly.com",
+      "isStaff": false
+    },
+    {
+      "id": 10,
+      "name": "Rolfe",
+      "email": "rdampier9@sogou.com",
+      "isStaff": true
+    }
+  ],
+  "customers": [
+    {
+      "phoneNumber": "408-813-3597",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "phoneNumber": "408-813-4589"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "phoneNumber": "120-119-5282"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "phoneNumber": "729-404-4411"
+    },
+    {
+      "id": 5,
+      "userId": 5,
+      "phoneNumber": "829-546-1346"
+    }
+  ],
+  "admins": [
+    {
+      "id": 1,
+      "userId": 6,
+      "phoneNumber": "615-735-3680"
+    },
+    {
+      "id": 2,
+      "userId": 7,
+      "phoneNumber": "415-929-3172"
+    },
+    {
+      "id": 3,
+      "userId": 8,
+      "phoneNumber": "469-319-3558"
+    },
+    {
+      "id": 4,
+      "userId": 9,
+      "phoneNumber": "886-924-1796"
+    },
+    {
+      "id": 5,
+      "userId": 10,
+      "phoneNumber": "153-323-2439"
+    }
+  ],
+  "customerGames": [
+    {
+      "id": 1,
+      "gameId": 2,
+      "customerId": 1
+    },
+    {
+      "id": 2,
+      "gameId": 5,
+      "customerId": 5
+    },
+    {
+      "id": 3,
+      "gameId": 5,
+      "customerId": 2
+    },
+    {
+      "id": 4,
+      "gameId": 9,
+      "customerId": 5
+    },
+    {
+      "id": 5,
+      "gameId": 5,
+      "customerId": 5
+    },
+    {
+      "id": 6,
+      "gameId": 7,
+      "customerId": 2
+    },
+    {
+      "id": 7,
+      "gameId": 10,
+      "customerId": 4
+    },
+    {
+      "id": 8,
+      "gameId": 10,
+      "customerId": 1
+    },
+    {
+      "id": 9,
+      "gameId": 7,
+      "customerId": 4
+    },
+    {
+      "id": 10,
+      "gameId": 3,
+      "customerId": 2
+    }
+  ],
+  "games": [
+    {
+      "id": 1,
+      "name": "Call of Duty Modern Warfare  2",
+      "categoriesId": "1"
+    },
+    {
+      "id": 2,
+      "name": "Red Dead Redemption",
+      "categoriesId": 5
+    },
+    {
+      "id": 3,
+      "name": "Doom",
+      "categoriesId": 1
+    },
+    {
+      "id": 4,
+      "name": "Grand Theft Auto: San Andreas",
+      "categoriesId": 5
+    },
+    {
+      "id": 5,
+      "name": "The Forest",
+      "categoriesId": 4
+    },
+    {
+      "id": 6,
+      "name": "The Last of Us",
+      "categoriesId": 1
+    },
+    {
+      "id": 7,
+      "name": "Fall Guys",
+      "categoriesId": 3
+    },
+    {
+      "id": 8,
+      "name": "NHL22",
+      "categoriesId": 2
+    },
+    {
+      "id": 9,
+      "name": "Fortnite",
+      "categoriesId": 3
+    },
+    {
+      "id": 10,
+      "name": "Call of Duty Warzone",
+      "categoriesId": 3
+    },
+    {
+      "name": "GoldenEye 007",
+      "categoriesId": "1",
+      "id": 11
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "First-person shooter"
+    },
+    {
+      "id": 2,
+      "name": "Sports"
+    },
+    {
+      "id": 3,
+      "name": "Battle Royale"
+    },
+    {
+      "id": 4,
+      "name": "Horror"
+    },
+    {
+      "id": 5,
+      "name": "Action-Adventure"
+    }
+  ]
+}
